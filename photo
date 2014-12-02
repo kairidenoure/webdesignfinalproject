@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kai Ridenoure - Photo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/finalprojectcss.css" rel="stylesheet">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        <div id="kai-logo"><img id="kai-logo" src="img/kai4black.png"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">video</a>
+                </li>
+                <li>
+                    <a href="#">photo</a>
+                </li>
+                <li>
+                    <a href="#">design</a>
+                </li>
+                <li>
+                    <a href="https://thekaikitchen.blogspot.com">blog</a>
+                </li>
+                <li>
+                    <a href="https://vimeo.com/user28882230">vimeo</a>
+                </li>
+                <li>
+                    <a href="#">about</a>
+                </li>
+                </li>
+            </ul>
+        </div>
+
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id = "opening">
+
+  <div id="photo-container">
+    <ul class="photo-grid-list">
+        <div ="photo-grid-img" class="photo-grid-list"><img src="img/fallbaking.jpg"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/beccapicnic.png"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/blueberrycoconutblue4.png"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/creamdream.png"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/IMG_6359.png"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/IMG_6460.png"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/lochlomond3.png"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/momdad22.png"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/tartday4.png"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/momdad30.png"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/bree5.png"></div>
+        <div id="photo-grid-img" class="photo-grid-list"><img src="img/tartday7.png"></div>
+    </div>
+    </ul>
+</div>
+
+</body>
+
+</html>
